@@ -1,0 +1,175 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+text-decoration: none;
+
+}
+
+
+header{
+
+   
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 2px 10%;
+    background: rgb(255, 255, 255);
+}
+
+.logo{
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navbar2{
+    display: flex;
+
+}
+
+
+
+.navbar3{
+    display: flex;
+    
+
+}
+
+
+
+.navbar2 a{
+    color: #000000;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+
+}
+
+
+
+.navbar a{
+    color: #000000;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+
+}
+
+
+
+
+
+.navbar3 a{
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+
+}
+
+
+
+
+.navbar a:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+
+.navbar3 a:hover{
+    border-bottom: 2px solid rgb(253, 253, 253);
+
+}
+
+
+.navbar2 a:hover{
+    background-color: #000000d7;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+
+
+#menu-icon{
+    color: #fff;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+
+.butn{
+    color: #fff;
+ border-radius: 20px;
+  border: none; font-size: 20px; 
+  background: #005374f1;
+   padding: 15px 25px;
+   transition: all .55s ease;
+}
+
+
+.butn:hover{
+    
+   color: rgb(255, 255, 255);
+   background: #0cacec5b;
+
+
+}
+
+
+.bute{
+    color: #0d536e;
+        border-radius: 20px;
+         border: none;
+          font-size: 25px; 
+         background: rgb(255, 255, 255);
+          padding: 15px 25px;
+          transition: all .55s ease;
+}
+
+ .bute:hover{
+    
+   border-radius: 5px;
+   color: rgb(255, 255, 255);
+   background: #138ebefb;
+
+
+}
+
+
+
+
+.hero{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
